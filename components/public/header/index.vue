@@ -7,7 +7,11 @@
       </el-col>
       <el-col :span="18" class="headerOther">
         <el-row>
-          <el-col :span="1" :offset="15">
+          <el-col :span="1" :offset="14">
+            <nuxt-link to="/workspace">编辑</nuxt-link>
+            <!-- <div class="grid-content bg-purple">推荐</div> -->
+          </el-col>
+          <el-col :span="1">
             <nuxt-link to="/recommend">推荐</nuxt-link>
             <!-- <div class="grid-content bg-purple">推荐</div> -->
           </el-col>
